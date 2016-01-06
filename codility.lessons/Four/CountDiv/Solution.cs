@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace codility.Four.CountDiv
+﻿namespace codility.Four.CountDiv
 {
     public class Solution
     {
         public int solution(int A, int B, int K)
-        {
-            return 0;
+        {   
+            int divisorsGreaterThanA = B / K - A / K;
+
+            return (A % K == 0) ? divisorsGreaterThanA + 1 : divisorsGreaterThanA;
         }
     }
 }

@@ -71,7 +71,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Four\CountDiv\SolutionTests.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
