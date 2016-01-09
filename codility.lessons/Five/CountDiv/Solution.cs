@@ -1,4 +1,4 @@
-﻿namespace codility.Four.CountDiv
+﻿namespace codility.Five.CountDiv
 {
     public class Solution
     {

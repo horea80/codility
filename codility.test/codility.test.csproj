@@ -70,7 +70,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Four\CountDiv\SolutionTests.cs" />
+    <Compile Include="Five\CountDiv\SolutionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

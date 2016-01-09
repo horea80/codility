@@ -1,12 +1,12 @@
 ﻿using NUnit.Framework;
-using codility.Four.CountDiv;
+using codility.Five.CountDiv;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace codility.Four.CountDiv.Tests
+namespace codility.Five.CountDiv.Tests
 {
     [TestFixture()]
     public class SolutionTests
