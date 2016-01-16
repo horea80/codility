@@ -1,63 +1,58 @@
-﻿using NUnit.Framework;
-using codility.Five.CountDiv;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using codility.Five.CountDiv;
+using NUnit.Framework;
 
-namespace codility.Five.CountDiv.Tests
+namespace codility.test.Five.CountDiv
 {
     [TestFixture()]
     public class SolutionTests
     {
         [Test()]
-        public void textBookExample()
+        public void TextBookExample()
         {
             Solution s = new Solution();
             Assert.AreEqual(3, s.solution(6, 11, 2));            
         }
         [Test()]
-        public void extremeleySmallK()
+        public void ExtremeleySmallK()
         {
             Solution s = new Solution();
             Assert.AreEqual(6, s.solution(6, 11, 1));
         }
         [Test()]
-        public void extremelyLargeK()
+        public void ExtremelyLargeK()
         {
             Solution s = new Solution();
             Assert.AreEqual(0, s.solution(6, 11, 2000000000));
         }
         [Test()]
-        public void borderSmallK()
+        public void BorderSmallK()
         {
             Solution s = new Solution();
             Assert.AreEqual(5, s.solution(6, 30, 6));
         }
         [Test()]
-        public void borderLargeK()
+        public void BorderLargeK()
         {
             Solution s = new Solution();
             Assert.AreEqual(1, s.solution(6, 30, 30));
         }
 
         [Test()]
-        public void smallInterval()
+        public void SmallInterval()
         {
             Solution s = new Solution();
             Assert.AreEqual(1, s.solution(6, 6, 6));
         }
 
         [Test()]
-        public void endpointZero()
+        public void EndpointZero()
         {
             Solution s = new Solution();
             Assert.AreEqual(5, s.solution(0, 8, 2));
         }
 
         [Test()]
-        public void anotherEndpointZero()
+        public void AnotherEndpointZero()
         {
             Solution s = new Solution();
             Assert.AreEqual(6, s.solution(0, 30, 6));

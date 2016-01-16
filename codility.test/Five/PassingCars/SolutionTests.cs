@@ -1,28 +1,28 @@
-﻿using NUnit.Framework;
-using codility.Five.PassingCars;
+﻿using codility.Five.PassingCars;
+using NUnit.Framework;
 
-namespace codility.Five.PassingCars.Tests
+namespace codility.test.Five.PassingCars
 {
     [TestFixture()]
     public class SolutionTests
     {
         [Test()]
-        public void exampleTest()
+        public void ExampleTest()
         {
             Solution s = new Solution();
-            Assert.AreEqual(5, s.solution(new int[] { 0, 1, 0, 1, 1 }));
+            Assert.AreEqual(5, s.solution(new[] { 0, 1, 0, 1, 1 }));
         }
         [Test()]
-        public void givenAllEast()
+        public void GivenAllEast()
         {
             Solution s = new Solution();
-            Assert.AreEqual(0, s.solution(new int[] { 0, 0, 0, 0, 0 }));
+            Assert.AreEqual(0, s.solution(new[] { 0, 0, 0, 0, 0 }));
         }
         [Test()]
-        public void givenAllWest()
+        public void GivenAllWest()
         {
             Solution s = new Solution();
-            Assert.AreEqual(0, s.solution(new int[] { 1, 1, 1, 1, 1 }));
+            Assert.AreEqual(0, s.solution(new[] { 1, 1, 1, 1, 1 }));
         }
     }
 }
