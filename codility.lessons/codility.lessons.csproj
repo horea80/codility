@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Five\CountDiv\Solution.cs" />
     <Compile Include="Five\GenomicRangeQuery\Solution.cs" />
+    <Compile Include="Five\MinAvgSlice\Solution.cs" />
     <Compile Include="Five\PassingCars\Solution.cs" />
   </ItemGroup>
   <ItemGroup>

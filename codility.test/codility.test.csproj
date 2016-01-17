@@ -75,6 +75,7 @@
   <ItemGroup>
     <Compile Include="Five\CountDiv\SolutionTests.cs" />
     <Compile Include="Five\GenomicRangeQuery\SolutionTests.cs" />
+    <Compile Include="Five\MinAvgSlice\SolutionTests.cs" />
     <Compile Include="Five\PassingCars\SolutionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
