@@ -53,6 +53,7 @@
     <Compile Include="Five\GenomicRangeQuery\Solution.cs" />
     <Compile Include="Five\MinAvgSlice\Solution.cs" />
     <Compile Include="Five\PassingCars\Solution.cs" />
+    <Compile Include="Six\Distinct\Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

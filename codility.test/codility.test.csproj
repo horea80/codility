@@ -78,6 +78,7 @@
     <Compile Include="Five\MinAvgSlice\SolutionTests.cs" />
     <Compile Include="Five\PassingCars\SolutionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Six\Distinct\SolutionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
