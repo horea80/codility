@@ -54,6 +54,7 @@
     <Compile Include="Five\MinAvgSlice\Solution.cs" />
     <Compile Include="Five\PassingCars\Solution.cs" />
     <Compile Include="Six\Distinct\Solution.cs" />
+    <Compile Include="Six\MaxProductOfThree\Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
